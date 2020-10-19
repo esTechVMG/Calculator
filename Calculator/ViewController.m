@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "MathOperations.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    MathOperations *maths = [[MathOperations alloc]init];
+    int n=0;
+    
+    
 }
 
 

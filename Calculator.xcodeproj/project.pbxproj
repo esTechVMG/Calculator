@@ -10,12 +10,13 @@
 		30A45E6B253DD8E2000F4D05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45E6A253DD8E2000F4D05 /* AppDelegate.m */; };
 		30A45E6E253DD8E2000F4D05 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45E6D253DD8E2000F4D05 /* SceneDelegate.m */; };
 		30A45E71253DD8E2000F4D05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45E70253DD8E2000F4D05 /* ViewController.m */; };
-		30A45E74253DD8E2000F4D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A45E72253DD8E2000F4D05 /* Main.storyboard */; };
 		30A45E76253DD8E4000F4D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A45E75253DD8E4000F4D05 /* Assets.xcassets */; };
 		30A45E79253DD8E4000F4D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A45E77253DD8E4000F4D05 /* LaunchScreen.storyboard */; };
 		30A45E7C253DD8E4000F4D05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45E7B253DD8E4000F4D05 /* main.m */; };
 		30A45E86253DD8E4000F4D05 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45E85253DD8E4000F4D05 /* CalculatorTests.m */; };
 		30A45E91253DD8E4000F4D05 /* CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45E90253DD8E4000F4D05 /* CalculatorUITests.m */; };
+		30A45EA3253DD919000F4D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A45EA1253DD919000F4D05 /* Main.storyboard */; };
+		30A45EAC253DE199000F4D05 /* MathOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A45EAB253DE199000F4D05 /* MathOperations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		30A45E6D253DD8E2000F4D05 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		30A45E6F253DD8E2000F4D05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		30A45E70253DD8E2000F4D05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		30A45E73253DD8E2000F4D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30A45E75253DD8E4000F4D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A45E78253DD8E4000F4D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A45E7A253DD8E4000F4D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +54,9 @@
 		30A45E8C253DD8E4000F4D05 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A45E90253DD8E4000F4D05 /* CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorUITests.m; sourceTree = "<group>"; };
 		30A45E92253DD8E4000F4D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A45EA2253DD919000F4D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../HelloWorld/TestApp/Calculadora/Calculadora/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A45EAA253DE073000F4D05 /* MathOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathOperations.h; sourceTree = "<group>"; };
+		30A45EAB253DE199000F4D05 /* MathOperations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathOperations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +113,9 @@
 				30A45E6D253DD8E2000F4D05 /* SceneDelegate.m */,
 				30A45E6F253DD8E2000F4D05 /* ViewController.h */,
 				30A45E70253DD8E2000F4D05 /* ViewController.m */,
-				30A45E72253DD8E2000F4D05 /* Main.storyboard */,
+				30A45EA1253DD919000F4D05 /* Main.storyboard */,
+				30A45EAA253DE073000F4D05 /* MathOperations.h */,
+				30A45EAB253DE199000F4D05 /* MathOperations.m */,
 				30A45E75253DD8E4000F4D05 /* Assets.xcassets */,
 				30A45E77253DD8E4000F4D05 /* LaunchScreen.storyboard */,
 				30A45E7A253DD8E4000F4D05 /* Info.plist */,
@@ -241,7 +246,7 @@
 			files = (
 				30A45E79253DD8E4000F4D05 /* LaunchScreen.storyboard in Resources */,
 				30A45E76253DD8E4000F4D05 /* Assets.xcassets in Resources */,
-				30A45E74253DD8E2000F4D05 /* Main.storyboard in Resources */,
+				30A45EA3253DD919000F4D05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +273,7 @@
 			files = (
 				30A45E71253DD8E2000F4D05 /* ViewController.m in Sources */,
 				30A45E6B253DD8E2000F4D05 /* AppDelegate.m in Sources */,
+				30A45EAC253DE199000F4D05 /* MathOperations.m in Sources */,
 				30A45E7C253DD8E4000F4D05 /* main.m in Sources */,
 				30A45E6E253DD8E2000F4D05 /* SceneDelegate.m in Sources */,
 			);
@@ -305,20 +311,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30A45E72253DD8E2000F4D05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30A45E73253DD8E2000F4D05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30A45E77253DD8E4000F4D05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				30A45E78253DD8E4000F4D05 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30A45EA1253DD919000F4D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A45EA2253DD919000F4D05 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
